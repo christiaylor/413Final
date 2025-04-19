@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "WaterProject.API.Controllers.WaterController",
+    "Method": "AddProject",
+    "RelativePath": "api/Water/AddProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newProject",
+        "Type": "WaterProject.API.Data.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaterProject.API.Controllers.WaterController",
+    "Method": "GetProjects",
+    "RelativePath": "api/Water/AllProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageLength",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNum",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "projectTypes",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaterProject.API.Controllers.WaterController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Water/DeleteProject/{projectId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaterProject.API.Controllers.WaterController",
+    "Method": "GetProjectTypes",
+    "RelativePath": "api/Water/GetProjectTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaterProject.API.Controllers.WaterController",
+    "Method": "UpdateProject",
+    "RelativePath": "api/Water/UpdateProject/{projectId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedProject",
+        "Type": "WaterProject.API.Data.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

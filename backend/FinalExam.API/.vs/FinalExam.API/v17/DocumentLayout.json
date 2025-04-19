@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalExam.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\appsettings.json",
+              "RelativeToolTip": "FinalExam.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T15:54:51.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Program.cs",
+              "RelativeDocumentMoniker": "FinalExam.API\\Program.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Program.cs",
+              "RelativeToolTip": "FinalExam.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:57:17.7Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
