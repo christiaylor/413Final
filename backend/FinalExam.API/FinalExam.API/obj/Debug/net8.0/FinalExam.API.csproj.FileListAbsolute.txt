@@ -128,10 +128,11 @@ C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\Fin
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalExam.API.props
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalExam.API.props
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\FinalExa.74BAB608.Up2Date
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\FinalExam.API.dll
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\refint\FinalExam.API.dll
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\FinalExam.API.pdb
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\FinalExam.API.genruntimeconfig.cache
 C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\ref\FinalExam.API.dll
+C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\FinalExam.API.sourcelink.json
+C:\Users\chris\Documents\2025 Junior Core\413\413Final\backend\FinalExam.API\FinalExam.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

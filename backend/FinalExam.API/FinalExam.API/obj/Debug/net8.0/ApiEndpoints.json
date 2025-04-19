@@ -1,24 +1,24 @@
 [
   {
-    "ContainingType": "WaterProject.API.Controllers.WaterController",
-    "Method": "AddProject",
-    "RelativePath": "api/Water/AddProject",
+    "ContainingType": "WaterProject.API.Controllers.EntertainerController",
+    "Method": "AddEntertainer",
+    "RelativePath": "api/Entertainer/AddEntertainer",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newProject",
-        "Type": "WaterProject.API.Data.Project",
+        "Name": "newEntertainer",
+        "Type": "WaterProject.API.Data.Entertainer",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WaterProject.API.Controllers.WaterController",
-    "Method": "GetProjects",
-    "RelativePath": "api/Water/AllProjects",
+    "ContainingType": "WaterProject.API.Controllers.EntertainerController",
+    "Method": "GetEntertainers",
+    "RelativePath": "api/Entertainer/AllEntertainers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -32,25 +32,40 @@
         "Name": "pageNum",
         "Type": "System.Int32",
         "IsRequired": false
-      },
-      {
-        "Name": "projectTypes",
-        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WaterProject.API.Controllers.WaterController",
-    "Method": "DeleteProject",
-    "RelativePath": "api/Water/DeleteProject/{projectId}",
+    "ContainingType": "WaterProject.API.Controllers.EntertainerController",
+    "Method": "Engagement",
+    "RelativePath": "api/Entertainer/bookingInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FinalExam.API.Data.Engagement, FinalExam.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WaterProject.API.Controllers.EntertainerController",
+    "Method": "DeleteEntertainer",
+    "RelativePath": "api/Entertainer/DeleteEntertainer/{EntertainerID}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "projectId",
+        "Name": "EntertainerID",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -58,31 +73,21 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WaterProject.API.Controllers.WaterController",
-    "Method": "GetProjectTypes",
-    "RelativePath": "api/Water/GetProjectTypes",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WaterProject.API.Controllers.WaterController",
-    "Method": "UpdateProject",
-    "RelativePath": "api/Water/UpdateProject/{projectId}",
+    "ContainingType": "WaterProject.API.Controllers.EntertainerController",
+    "Method": "UpdateEntertainer",
+    "RelativePath": "api/Entertainer/UpdateEntertainer/{EntertainerID}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "projectId",
+        "Name": "entertainerID",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "updatedProject",
-        "Type": "WaterProject.API.Data.Project",
+        "Name": "updatedEntertainer",
+        "Type": "WaterProject.API.Data.Entertainer",
         "IsRequired": true
       }
     ],

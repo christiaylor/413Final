@@ -16,9 +16,9 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
 
   const addToCart = (item: CartItem) => {
     setCart((prevCart) => {
-      const existingItem = prevCart.find((c) => c.projectId === item.projectId);
+      const existingItem = prevCart.find((c) => c.projectID === item.projectID);
       const updatedCart = prevCart.map((c) =>
-        c.projectId === item.projectId
+        c.projectID === item.projectID
           ? { ...c, donationAmount: c.donationAmount + item.donationAmount }
           : c
       );
@@ -28,7 +28,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const removeFromCart = (projectId: number) => {
-    setCart((prevCart) => prevCart.filter((c) => c.projectId !== projectId));
+    setCart((prevCart) => prevCart.filter((c) => c.projectID !== projectId));
   };
   const clearCart = () => {
     setCart(() => []);

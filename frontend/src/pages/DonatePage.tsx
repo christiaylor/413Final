@@ -6,13 +6,13 @@ import { CartItem } from '../types/Cartitem';
 
 function DonatePage() {
   const navigate = useNavigate();
-  const { projectName, projectId } = useParams();
+  const { projectName, projectID: projectID } = useParams();
   const { addToCart } = useCart();
   const [donationAmount, setDonationAmount] = useState<number>(0);
 
   const handleAddToCart = () => {
     const newItem: CartItem = {
-      projectId: Number(projectId),
+      projectID: Number(projectID),
       projectName: projectName || 'No Project Found',
       donationAmount,
     };

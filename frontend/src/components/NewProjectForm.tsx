@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Project } from '../types/Project';
-import { addProject } from '../api/ProjectsAPI';
+import { Entertainer } from '../types/Entertainer';
+import { addEntertainer } from '../api/EntertainersAPI';
 
 interface NewProjectFormProps {
   onSuccess: () => void;
@@ -8,7 +8,7 @@ interface NewProjectFormProps {
 }
 
 const NewProjectForm = ({ onSuccess, onCancel }: NewProjectFormProps) => {
-  const [formData, setFormData] = useState<Project>({
+  const [formData, setFormData] = useState<Entertainer>({
     projectId: 0,
     projectName: '',
     projectType: '',
@@ -25,7 +25,7 @@ const NewProjectForm = ({ onSuccess, onCancel }: NewProjectFormProps) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await addProject(formData);
+    await addEntertainer(formData);
     onSuccess();
   };
 

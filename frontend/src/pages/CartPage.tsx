@@ -14,9 +14,9 @@ function CartPage() {
         ) : (
           <ul>
             {cart.map((item: CartItem) => (
-              <li key={item.projectId}>
+              <li key={item.projectID}>
                 {item.projectName}: ${item.donationAmount.toFixed(2)}
-                <button onClick={() => removeFromCart(item.projectId)}>
+                <button onClick={() => removeFromCart(item.projectID)}>
                   Remove
                 </button>
               </li>

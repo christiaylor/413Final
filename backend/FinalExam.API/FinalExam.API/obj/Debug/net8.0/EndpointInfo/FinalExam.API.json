@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Water/AllProjects": {
+    "/api/Entertainer/AllEntertainers": {
       "get": {
         "tags": [
-          "Water"
+          "Entertainer"
         ],
         "parameters": [
           {
@@ -28,57 +28,73 @@
               "format": "int32",
               "default": 1
             }
-          },
-          {
-            "name": "projectTypes",
-            "in": "query",
-            "schema": {
-              "type": "array",
-              "items": {
-                "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Entertainer/bookingInfo": {
+      "get": {
+        "tags": [
+          "Entertainer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Engagement"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Engagement"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Engagement"
+                  }
+                }
               }
             }
           }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
         }
       }
     },
-    "/api/Water/GetProjectTypes": {
-      "get": {
-        "tags": [
-          "Water"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Water/AddProject": {
+    "/api/Entertainer/AddEntertainer": {
       "post": {
         "tags": [
-          "Water"
+          "Entertainer"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             }
           }
@@ -90,14 +106,14 @@
         }
       }
     },
-    "/api/Water/UpdateProject/{projectId}": {
+    "/api/Entertainer/UpdateEntertainer/{EntertainerID}": {
       "put": {
         "tags": [
-          "Water"
+          "Entertainer"
         ],
         "parameters": [
           {
-            "name": "projectId",
+            "name": "entertainerID",
             "in": "path",
             "required": true,
             "schema": {
@@ -110,17 +126,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Project"
+                "$ref": "#/components/schemas/Entertainer"
               }
             }
           }
@@ -132,14 +148,14 @@
         }
       }
     },
-    "/api/Water/DeleteProject/{projectId}": {
+    "/api/Entertainer/DeleteEntertainer/{EntertainerID}": {
       "delete": {
         "tags": [
-          "Water"
+          "Entertainer"
         ],
         "parameters": [
           {
-            "name": "projectId",
+            "name": "EntertainerID",
             "in": "path",
             "required": true,
             "schema": {
@@ -158,38 +174,73 @@
   },
   "components": {
     "schemas": {
-      "Project": {
-        "required": [
-          "projectName"
-        ],
+      "Engagement": {
         "type": "object",
         "properties": {
-          "projectId": {
+          "entertainerID": {
             "type": "integer",
             "format": "int32"
           },
-          "projectName": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "projectType": {
+          "entStageName": {
             "type": "string",
             "nullable": true
           },
-          "projectRegionalProgram": {
-            "type": "string",
-            "nullable": true
-          },
-          "projectImpact": {
+          "engagementCount": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
-          "projectPhase": {
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Entertainer": {
+        "type": "object",
+        "properties": {
+          "entertainerID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "entStageName": {
             "type": "string",
             "nullable": true
           },
-          "projectFunctionalityStatus": {
+          "entSSN": {
+            "type": "string",
+            "nullable": true
+          },
+          "entStreetAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "entCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "entState": {
+            "type": "string",
+            "nullable": true
+          },
+          "entZipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "entPhoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "entWebPage": {
+            "type": "string",
+            "nullable": true
+          },
+          "entEMailAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateEntered": {
             "type": "string",
             "nullable": true
           }

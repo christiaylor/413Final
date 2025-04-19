@@ -10,8 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<WaterDbContext>(options =>
-options.UseSqlite(builder.Configuration.GetConnectionString("WaterConnection")));
+builder.Services.AddDbContext<EntertainerDbContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("EntertainmentConnection")));
 
 builder.Services.AddCors(options =>
 {
@@ -45,4 +45,3 @@ app.MapControllers();
 
 app.Run();
 
-//testingggggggggggggggggg

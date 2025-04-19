@@ -7,7 +7,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DonatePage from './pages/DonatePage';
 import CartPage from './pages/CartPage';
 import { CartProvider } from './context/CartContext';
-import AdminProjectsPage from './pages/AdminProjectsPage';
+// import AdminProjectsPage from './pages/AdminEntertainersPage';
+import LandingPage from './pages/LandingPage';
+import EntertainersPage from './pages/EntertainersPage';
+// import AdminEntertainersPage from './pages/AdminEntertainersPage';
 
 function App() {
   return (
@@ -15,14 +18,14 @@ function App() {
       <CartProvider>
         <Router>
           <Routes>
-            <Route path="/" element={<ProjectsPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/entertainers" element={<EntertainersPage />} />
             <Route
-              path="/donate/:projectName/:projectId"
-              element={<DonatePage />}
+              path="/details/:projectId"
+              // element={<AdminEntertainersPage />}
             />
             <Route path="/cart" element={<CartPage />} />
-            <Route path="/adminprojects" element={<AdminProjectsPage />} />
+            {/* <Route path="/adminprojects" element={<AdminProjectsPage />} /> */}
           </Routes>
         </Router>
       </CartProvider>
@@ -31,6 +34,3 @@ function App() {
 }
 
 export default App;
-
-
-// Testingggggggggggggggggggggggggggggggggg

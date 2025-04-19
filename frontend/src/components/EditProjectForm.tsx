@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Project } from '../types/Project';
-import { updateProject } from '../api/ProjectsAPI';
+import { Entertainer } from '../types/Entertainer';
+import { updateEntertainer } from '../api/EntertainersAPI';
 
 interface EditProjectFormProps {
-  project: Project;
+  project: Entertainer;
   onSuccess: () => void;
   onCancel: () => void;
 }
@@ -13,7 +13,7 @@ const EditProjectForm = ({
   onSuccess,
   onCancel,
 }: EditProjectFormProps) => {
-  const [formData, setFormData] = useState<Project>({ ...project });
+  const [formData, setFormData] = useState<Entertainer>({ ...project });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -21,7 +21,7 @@ const EditProjectForm = ({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await updateProject(formData.projectId, formData);
+    await updateEntertainer(formData.projectId, formData);
     onSuccess();
   };
 

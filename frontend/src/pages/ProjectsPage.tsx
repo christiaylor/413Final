@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CategoryFilter from '../components/CategoryFilter';
-import ProjectList from '../components/ProjectList';
+import ProjectList from '../components/EntertainerList';
 import WelcomeFunc from '../components/WelcomeFunc';
 import CartSummary from '../components/CartSummary';
 
