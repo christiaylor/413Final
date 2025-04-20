@@ -80,6 +80,25 @@ namespace WaterProject.API.Controllers
         }
 
 
+        [HttpGet("{id}")] // Matches the route used by fetchEntertainerDetails in TypeScript
+        public async Task<ActionResult<Entertainer>> GetEntertainerById(int id)
+        {
+            // Use .NET 6+ syntax for clarity and efficiency
+            var entertainer = await _entertainerContext.Entertainers
+                .FirstOrDefaultAsync(e => e.EntertainerID == id);
+
+
+            if (entertainer == null)
+            {
+                return NotFound(); // Returns 404 if no entertainer is found
+            }
+
+            return Ok(entertainer); // Returns 200 with the entertainer data
+        }
+
+
+
+
 
         //[HttpGet("GetProjectTypes")]
         //public IActionResult GetProjectTypes()

@@ -131,3 +131,25 @@ export const fetchEntertainersWithBookingInfo = async (
     throw error;
   }
 };
+
+
+// Interface for the response of fetching a single entertainer's details
+interface FetchEntertainerDetailsResponse extends Entertainer {}
+
+// New function to fetch details for a single entertainer
+export const fetchEntertainerDetails = async (
+  id: number
+): Promise<FetchEntertainerDetailsResponse> => {
+  try {
+      const url = `${API_URL}/${id}`; // Assuming your backend detail endpoint is like /api/Entertainer/{id}
+      const response = await fetch(url);
+
+      if (!response.ok) {
+          throw new Error(`Failed to fetch details for entertainer with ID ${id}`);
+      }
+      return await response.json();
+  } catch (error) {
+      console.error(`Error fetching details for entertainer with ID ${id}:`, error);
+      throw error;
+  }
+};

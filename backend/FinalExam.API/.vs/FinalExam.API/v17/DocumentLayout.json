@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\controllers\\entertainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\data\\engagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\data\\engagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\data\\entertainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\data\\entertainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\data\\engagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|solutionrelative:finalexam.api\\data\\engagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2603C42A-A558-41F7-87F5-5C46A6214C5E}|FinalExam.API\\FinalExam.API.csproj|c:\\users\\chris\\documents\\2025 junior core\\413\\413final\\backend\\finalexam.api\\finalexam.api\\data\\entertainerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,40 +54,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EntertainerController.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Controllers\\EntertainerController.cs",
-              "RelativeDocumentMoniker": "FinalExam.API\\Controllers\\EntertainerController.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Controllers\\EntertainerController.cs",
-              "RelativeToolTip": "FinalExam.API\\Controllers\\EntertainerController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:00:11.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EntertainerDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\EntertainerDbContext.cs",
-              "RelativeDocumentMoniker": "FinalExam.API\\Data\\EntertainerDbContext.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\EntertainerDbContext.cs",
-              "RelativeToolTip": "FinalExam.API\\Data\\EntertainerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:00:41.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Engagement.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Engagement.cs",
               "RelativeDocumentMoniker": "FinalExam.API\\Data\\Engagement.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Engagement.cs",
               "RelativeToolTip": "FinalExam.API\\Data\\Engagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T22:12:40.42Z"
+              "WhenOpened": "2025-04-19T22:12:40.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entertainer.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Entertainer.cs",
+              "RelativeDocumentMoniker": "FinalExam.API\\Data\\Entertainer.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Entertainer.cs",
+              "RelativeToolTip": "FinalExam.API\\Data\\Entertainer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T19:55:55.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntertainerController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Controllers\\EntertainerController.cs",
+              "RelativeDocumentMoniker": "FinalExam.API\\Controllers\\EntertainerController.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Controllers\\EntertainerController.cs*",
+              "RelativeToolTip": "FinalExam.API\\Controllers\\EntertainerController.cs*",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:00:11.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,6 +105,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntertainerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\EntertainerDbContext.cs",
+              "RelativeDocumentMoniker": "FinalExam.API\\Data\\EntertainerDbContext.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\EntertainerDbContext.cs",
+              "RelativeToolTip": "FinalExam.API\\Data\\EntertainerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:00:41.349Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Program.cs",
@@ -112,18 +126,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T19:05:37.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Entertainer.cs",
-              "DocumentMoniker": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Entertainer.cs",
-              "RelativeDocumentMoniker": "FinalExam.API\\Data\\Entertainer.cs",
-              "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Data\\Entertainer.cs",
-              "RelativeToolTip": "FinalExam.API\\Data\\Entertainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:55:55.546Z"
             },
             {
               "$type": "Document",

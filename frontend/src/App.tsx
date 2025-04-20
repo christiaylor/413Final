@@ -10,6 +10,7 @@ import { CartProvider } from './context/CartContext';
 // import AdminProjectsPage from './pages/AdminEntertainersPage';
 import LandingPage from './pages/LandingPage';
 import EntertainersPage from './pages/EntertainersPage';
+import DetailPage from './pages/DetailPage';
 // import AdminEntertainersPage from './pages/AdminEntertainersPage';
 
 function App() {
@@ -20,12 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/entertainers" element={<EntertainersPage />} />
-            {/* <Route
-              path="/details/:projectId"
-              // element={<AdminEntertainersPage />}
-            /> */}
-            <Route path="/cart" element={<CartPage />} />
-            {/* <Route path="/adminprojects" element={<AdminProjectsPage />} /> */}
+            <Route path="/:projectId" element={<DetailPage />} />
           </Routes>
         </Router>
       </CartProvider>

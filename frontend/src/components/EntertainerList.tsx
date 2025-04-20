@@ -63,7 +63,7 @@ function EntertainerList() {
               {!e.startDate && <p>Never Booked</p>}
               <button
                 className="btn btn-success"
-                onClick={() => navigate(`/details/${e.entertainerID}`)}
+                onClick={() => navigate(`/${e.entertainerID}`)}
               >
                 See Details
               </button>
@@ -74,7 +74,7 @@ function EntertainerList() {
         Add Entertainer
       </button> */}
 
-      
+
       {/* <Pagination
         currentPage={pageNum}
         totalPages={totalPages}
