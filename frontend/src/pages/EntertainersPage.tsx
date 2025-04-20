@@ -1,9 +1,7 @@
-import EntertainerList from "../components/EntertainerList"
+import EntertainerList from '../components/EntertainerList';
 
-function EntertainersPage(){
-    return(
-        <EntertainerList />
-    )
+function EntertainersPage() {
+  return <EntertainerList />;
 }
 
-export default EntertainersPage
+export default EntertainersPage;

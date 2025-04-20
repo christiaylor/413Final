@@ -20,10 +20,10 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/entertainers" element={<EntertainersPage />} />
-            <Route
+            {/* <Route
               path="/details/:projectId"
               // element={<AdminEntertainersPage />}
-            />
+            /> */}
             <Route path="/cart" element={<CartPage />} />
             {/* <Route path="/adminprojects" element={<AdminProjectsPage />} /> */}
           </Routes>

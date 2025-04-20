@@ -93,7 +93,6 @@ export const deleteEntertainer = async (
   }
 };
 
-
 // import { Entertainer } from '../types/Entertainer';
 
 interface FetchEntertainersResponse {
@@ -104,9 +103,9 @@ interface FetchEntertainersResponse {
 // Define a new interface for the data from /bookingInfo
 export interface EntertainerWithBookingInfo {
   entertainerID: number;
-  entStageName: string;
-  engagementCount: number;
-  lastEngagementDate?: string | null;
+  entStageName?: string | null;
+  engagementCount?: number | 0;
+  startDate?: string | null;
 }
 
 interface FetchEntertainersWithBookingInfoResponse {

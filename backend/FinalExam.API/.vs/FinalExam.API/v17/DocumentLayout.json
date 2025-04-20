@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "FinalExam.API\\Controllers\\EntertainerController.cs",
               "ToolTip": "C:\\Users\\chris\\Documents\\2025 Junior Core\\413\\413Final\\backend\\FinalExam.API\\FinalExam.API\\Controllers\\EntertainerController.cs",
               "RelativeToolTip": "FinalExam.API\\Controllers\\EntertainerController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAswDwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T20:00:11.554Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "FinalExam.API\\Data\\EntertainerDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T20:00:41.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T20:00:41.349Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "FinalExam.API\\Data\\Engagement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T22:12:40.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T22:12:40.42Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "FinalExam.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-19T18:50:20.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T18:50:20.469Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "FinalExam.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:05:37.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T19:05:37.047Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "FinalExam.API\\Data\\Entertainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:55:55.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T19:55:55.546Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "FinalExam.API\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-19T19:02:40.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T19:02:40.069Z"
             }
           ]
         }

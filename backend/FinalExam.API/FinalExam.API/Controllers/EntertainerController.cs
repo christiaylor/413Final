@@ -53,8 +53,9 @@ namespace WaterProject.API.Controllers
  
         }
         [HttpGet("bookingInfo")]
-        public async Task<ActionResult<IEnumerable<Engagement>>> Engagement()
+        public async Task<ActionResult<object>> Engagement()
         {
+            // Fetch the entertainers with engagement count and start date
             var entertainersWithInfo = await _entertainerContext.Entertainers
                 .Select(e => new Engagement
                 {
@@ -67,8 +68,17 @@ namespace WaterProject.API.Controllers
                 })
                 .ToListAsync();
 
-            return Ok(entertainersWithInfo);
+            // Get the total number of entertainers
+            var totalCount = entertainersWithInfo.Count;
+
+            // Return an object that includes both the entertainers and the total count
+            return Ok(new
+            {
+                entertainers = entertainersWithInfo,
+                totalNumEntertainers = totalCount
+            });
         }
+
 
 
         //[HttpGet("GetProjectTypes")]
